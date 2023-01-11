@@ -91,7 +91,7 @@ main{
 }
 @media screen and (max-width: 576px){
   .donate-today{
-    padding: 5%;
+    padding: 0 10%;
   }
 }
 .section-content {
@@ -107,6 +107,11 @@ main{
   font-weight: 700;
   font-size: 45px;
   color: var(--primary-black);
+}
+@media screen and (max-width: 576px){
+  .section-title{
+    font-size: var(--title-font);
+  }
 }
 .section-description {
   font-weight: 400;
