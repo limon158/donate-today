@@ -3,7 +3,10 @@
   --white: #ffffff;
   --primary-black: #121212;
   --secondary-black: #707070;
+  --third-color: #b3b3b3;
   --btn-bg: #ff5959;
+  --content-bg: #fafafa;
+  --secondary-content-bg: #ffeeee;
 }
 /* Universal Styles */
 * {
@@ -17,7 +20,7 @@
 
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 315px 600px;
+  padding: 200px 600px;
   text-align: center;
 }
 .banner-title {
@@ -44,10 +47,11 @@
 /* Main Section style */
 .donate-today {
   text-align: center;
-  padding: 0 300px;
+  padding: 0 500px;
 }
 .section-content {
   margin-top: 130px;
+  text-align: center;
 }
 .section-title {
   font-weight: 700;
@@ -61,16 +65,48 @@
   margin-top: 20px;
   margin-bottom: 50px;
 }
+.donate-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.donate-content {
+  background-color: var(--content-bg);
+  padding: 40px 25px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--secondary-black);
+}
+#on-click {
+  border: 2px solid var(--btn-bg);
+  background-color: var(--secondary-content-bg);
+}
+.donate-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--third-color);
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+hr {
+  margin-bottom: 40px;
+}
+/* Our plan section styles */
+.our-plan{
+    padding: 0 300px;
+}
+.our-plan .section-content {
+  padding: 0 200px;
+}
 .container {
   display: flex;
   gap: 24px;
   text-align: left;
-  
 }
-.contents{
-    background: rgba(79, 157, 166, 0.1);
-    padding: 50px 24px;
-    border-radius: 5px;
+.contents {
+  background: rgba(79, 157, 166, 0.1);
+  padding: 50px 24px;
+  border-radius: 5px;
 }
 .container-title {
   font-weight: 600;
@@ -85,3 +121,4 @@
   margin-top: 16px;
   margin-bottom: 54px;
 }
+
