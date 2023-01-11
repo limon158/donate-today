@@ -1,3 +1,31 @@
-*{
-    margin: 0;;
+/* variable Declaration */
+:root {
+  --white: #ffffff;
+}
+/* Universal Styles */
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/* Banner Section Styles */
+.banner {
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+    url(images/donation13.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 175px 300px;
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: var(--white);
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--white);
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
