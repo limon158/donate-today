@@ -120,10 +120,22 @@ main{
   margin-top: 20px;
   margin-bottom: 50px;
 }
+@media screen and (max-width: 576px){
+  .section-description{
+    font-size: var(--primary-font);
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
 .donate-container {
   display: flex;
   gap: 24px;
   justify-content: center;
+}
+@media screen and (max-width: 576px){
+  .donate-container{
+    flex-direction: column;
+  }
 }
 .donate-content {
   background-color: var(--content-bg);
@@ -132,9 +144,22 @@ main{
   border-radius: 5px;
   color: var(--secondary-black);
 }
+@media screen and (max-width: 576px){
+  .donate-content{
+    padding: 5px 10px;
+  }
+  .donate-content .item{
+    font-size: var(--subtitle-font);
+  }
+}
 #on-click {
   border: 2px solid var(--btn-bg);
   background-color: var(--secondary-content-bg);
+}
+@media screen and (max-width: 576px){
+  #on-click{
+    border: 1px solid var(--btn-bg);
+  }
 }
 .donate-description {
   font-weight: 400;
@@ -143,8 +168,19 @@ main{
   margin-top: 60px;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 576px){
+  .donate-description{
+    font-size: var(--subtitle-font);
+    margin-top: 20px;
+  }
+}
 hr {
   margin-bottom: 40px;
+}
+@media screen and (max-width: 576px){
+  hr{
+    margin-bottom: 20px;
+  }
 }
 /* Our plan section styles */
 .our-plan {
