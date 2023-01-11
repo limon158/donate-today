@@ -1,6 +1,9 @@
 /* variable Declaration */
 :root {
   --white: #ffffff;
+  --primary-black: #121212;
+  --secondary-black: #707070;
+  --btn-bg: #ff5959;
 }
 /* Universal Styles */
 * {
@@ -14,7 +17,7 @@
 
   background-repeat: no-repeat;
   background-size: 100%;
-  padding: 175px 300px;
+  padding: 315px 600px;
   text-align: center;
 }
 .banner-title {
@@ -28,4 +31,57 @@
   color: var(--white);
   margin-top: 20px;
   margin-bottom: 30px;
+}
+.primary-btn {
+  padding: 16px;
+  border: 0;
+  border-radius: 5px;
+  background-color: var(--btn-bg);
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--white);
+}
+/* Main Section style */
+.donate-today {
+  text-align: center;
+  padding: 0 300px;
+}
+.section-content {
+  margin-top: 130px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: var(--primary-black);
+}
+.section-description {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary-black);
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.container {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+  
+}
+.contents{
+    background: rgba(79, 157, 166, 0.1);
+    padding: 50px 24px;
+    border-radius: 5px;
+}
+.container-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--primary-black);
+  margin-top: 30px;
+}
+.container-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-black);
+  margin-top: 16px;
+  margin-bottom: 54px;
 }
