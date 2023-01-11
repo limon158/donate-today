@@ -92,8 +92,8 @@ hr {
   margin-bottom: 40px;
 }
 /* Our plan section styles */
-.our-plan{
-    padding: 0 300px;
+.our-plan {
+  padding: 0 300px;
 }
 .our-plan .section-content {
   padding: 0 200px;
@@ -102,6 +102,7 @@ hr {
   display: flex;
   gap: 24px;
   text-align: left;
+  justify-content: center;
 }
 .contents {
   background: rgba(79, 157, 166, 0.1);
@@ -121,4 +122,32 @@ hr {
   margin-top: 16px;
   margin-bottom: 54px;
 }
-
+  /* Documentation section style */
+  .documentation {
+    padding: 0 350px 0 300px;
+  }
+  .secondary-container {
+    gap: 50px;
+  }
+  .documentation .section-description-first {
+    margin-bottom: 0;
+  }
+  .container-details {
+    padding: 30px;
+  }
+  .they-needs {
+    padding: 0 350px 0 300px;
+  }
+  #reverse-container {
+    flex-direction: row-reverse;
+  }
+  .they-needs .container-details {
+    padding-right: 50px;
+    text-align: left;
+  }
+  .they-needs .container-image {
+    padding: 30px;
+  }
+  .they-needs .section-description-first {
+    margin-bottom: 0;
+  }
