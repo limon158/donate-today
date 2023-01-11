@@ -7,10 +7,14 @@
   --btn-bg: #ff5959;
   --content-bg: #fafafa;
   --secondary-content-bg: #ffeeee;
+  --banner-bg: #FFF4D6;
+  --footer-bg: #0B0D17;
+  --lobster: 'Lobster', cursive;
 }
 /* Universal Styles */
 * {
   margin: 0;
+  max-width: 100vw;
   font-family: "Inter", sans-serif;
 }
 /* Banner Section Styles */
@@ -45,6 +49,9 @@
   color: var(--white);
 }
 /* Main Section style */
+main{
+  margin: 0 130px;
+}
 .donate-today {
   text-align: center;
   padding: 0 500px;
@@ -93,7 +100,7 @@ hr {
 }
 /* Our plan section styles */
 .our-plan {
-  padding: 0 300px;
+  padding: 0 200px;
 }
 .our-plan .section-content {
   padding: 0 200px;
@@ -124,7 +131,7 @@ hr {
 }
   /* Documentation section style */
   .documentation {
-    padding: 0 350px 0 300px;
+    padding: 0 250px 0 200px;
   }
   .secondary-container {
     gap: 50px;
@@ -135,19 +142,64 @@ hr {
   .container-details {
     padding: 30px;
   }
+  /* They needs section styles */
   .they-needs {
-    padding: 0 350px 0 300px;
+    padding: 0 250px 0 200px;
   }
   #reverse-container {
     flex-direction: row-reverse;
   }
   .they-needs .container-details {
-    padding-right: 50px;
+    padding-right: 0px;
     text-align: left;
   }
-  .they-needs .container-image {
-    padding: 30px;
-  }
+
   .they-needs .section-description-first {
     margin-bottom: 0;
+  }
+  /* update section styles */
+  .updates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+  }
+  .bottom-banner{
+    border: 0;
+    height: 160px;
+    background-color: var(--banner-bg);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .form-email{
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 0;
+
+  }
+  .form-btn{
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--btn-bg);
+    padding: 15px;
+    margin-right: 0;
+  }
+  /* Footer section styles */
+  .footer{
+    height: 15vh;
+    background-color: var(--footer-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-message{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: var(--lobster);
+    color: var(--btn-bg);
   }
