@@ -247,27 +247,57 @@ hr {
 @media screen and (max-width: 576px) {
   .container-description{
     font-size: var(--primary-font);
+    margin-top: 10px;
+    margin-bottom: 20px;
   }
 }
   /* Documentation section style */
   .documentation {
     padding: 0 250px 0 200px;
   }
+  @media screen and (max-width: 576px) {
+    .documentation{
+      padding: 5%;
+    }
+  }
+  
   .secondary-container {
     gap: 50px;
   }
+  @media screen and (max-width: 576px){
+    .secondary-container{
+      gap: 5%;
+    }
+  }
   .documentation .section-description-first {
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
   .container-details {
     padding: 30px;
+  }
+  @media screen and (max-width: 576px){
+    .container-details{
+      padding: 0;
+      text-align: left;
+      margin-bottom: 10px;
+    }
   }
   /* They needs section styles */
   .they-needs {
     padding: 0 250px 0 200px;
   }
+  @media screen and (max-width: 576px){
+    .they-needs{
+      padding: 5%;
+    }
+  }
   #reverse-container {
     flex-direction: row-reverse;
+  }
+  @media screen and (max-width: 576px){
+    #reverse-container{
+      flex-direction: column;
+    }
   }
   .they-needs .container-details {
     padding-right: 0px;
@@ -277,6 +307,17 @@ hr {
   .they-needs .section-description-first {
     margin-bottom: 0;
   }
+  @media screen and (max-width: 576px){
+    .documentation img{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 576px){
+    .they-needs img{
+      width: 100%;
+    }
+  }
+
   /* update section styles */
   .updates{
     display: flex;
