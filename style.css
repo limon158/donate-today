@@ -186,8 +186,20 @@ hr {
 .our-plan {
   padding: 0 200px;
 }
+@media screen and (max-width: 576px){
+  .our-plan{
+    padding: 0;
+  }
+  
+}
 .our-plan .section-content {
-  padding: 0 200px;
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  .our-plan .section-content {
+    padding: 0 10%;
+  }
+  
 }
 .container {
   display: flex;
