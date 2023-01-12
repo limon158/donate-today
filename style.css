@@ -207,16 +207,34 @@ hr {
   text-align: left;
   justify-content: center;
 }
+@media screen and (max-width: 576px) {
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
 .contents {
   background: rgba(79, 157, 166, 0.1);
   padding: 50px 24px;
   border-radius: 5px;
+}
+@media screen and (max-width: 576px) {
+  .contents{
+    padding: 10%;
+  }
 }
 .container-title {
   font-weight: 600;
   font-size: 24px;
   color: var(--primary-black);
   margin-top: 30px;
+}
+@media screen and (max-width: 576px) {
+  .container-title{
+    font-size: var(--title-font);
+    margin: 10px;
+  }
 }
 .container-description {
   font-weight: 400;
