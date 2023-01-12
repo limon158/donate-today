@@ -17,7 +17,7 @@
   /* Responsive font size */
   --title-font: 2em;
   --subtitle-font: 1em;
-  --primary-font: 0.5em;
+  --primary-font: 0.9em;
 }
 /* Universal Styles */
 * {
@@ -134,7 +134,7 @@ main{
 }
 @media screen and (max-width: 576px){
   .donate-container{
-    flex-direction: column;
+    justify-content: space-around;
   }
 }
 .donate-content {
@@ -149,7 +149,7 @@ main{
     padding: 5px 10px;
   }
   .donate-content .item{
-    font-size: var(--subtitle-font);
+    font-size: var(--primary-font);
   }
 }
 #on-click {
@@ -212,6 +212,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 0 5%;
   }
 }
 .contents {
@@ -242,6 +243,11 @@ hr {
   color: var(--secondary-black);
   margin-top: 16px;
   margin-bottom: 54px;
+}
+@media screen and (max-width: 576px) {
+  .container-description{
+    font-size: var(--primary-font);
+  }
 }
   /* Documentation section style */
   .documentation {
