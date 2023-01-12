@@ -134,7 +134,7 @@ main{
 }
 @media screen and (max-width: 576px){
   .donate-container{
-    justify-content: space-around;
+    flex-direction: column;
   }
 }
 .donate-content {
@@ -281,6 +281,9 @@ hr {
       text-align: left;
       margin-bottom: 10px;
     }
+    .section-title{
+      font-size: var(--title-font);
+    }
   }
   /* They needs section styles */
   .they-needs {
@@ -358,9 +361,21 @@ hr {
     justify-content: center;
     align-items: center;
   }
+  @media screen and (max-width: 576px){
+    .footer{
+      height: 6vh;
+      flex-direction: column;
+    }
+  }
   .footer-message{
     font-size: 30px;
     font-weight: 500;
     font-family: var(--lobster);
     color: var(--btn-bg);
+  }
+  @media screen and (max-width: 576px){
+    .footer-message{
+      font-size: var(--subtitle-font);
+
+    }
   }
