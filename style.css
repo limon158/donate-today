@@ -6,14 +6,14 @@
   --secondary-black: #707070;
   --third-color: #b3b3b3;
   --btn-bg: #ff5959;
-  --primary-bg: #ffffff;;
+  --primary-bg: #ffffff;
   --content-bg: #fafafa;
   --secondary-content-bg: #ffeeee;
-  --banner-bg: #FFF4D6;
-  --footer-bg: #0B0D17;
+  --banner-bg: #fff4d6;
+  --footer-bg: #0b0d17;
   /* font family */
   --primary-font: "Inter", sans-serif;
-  --lobster: 'Lobster', cursive;
+  --lobster: "Lobster", cursive;
   /* Responsive font size */
   --title-font: 2em;
   --subtitle-font: 1em;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 @media screen and (max-width: 576px) {
-  .banner{
+  .banner {
     padding: 10px;
   }
 }
@@ -47,7 +47,7 @@
   color: var(--white);
 }
 @media screen and (max-width: 576px) {
-  .banner-title{
+  .banner-title {
     font-size: var(--title-font);
   }
 }
@@ -58,10 +58,9 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 576px){
-  .banner-description{
+@media screen and (max-width: 576px) {
+  .banner-description {
     font-size: var(--subtitle-font);
-
   }
 }
 .primary-btn {
@@ -73,14 +72,14 @@
   font-size: 16px;
   color: var(--white);
 }
-@media screen and (max-width: 576px){
-  .primary-btn{
+@media screen and (max-width: 576px) {
+  .primary-btn {
     padding: 10px;
     font-size: var(--primary-font);
   }
 }
 /* Main Section style */
-main{
+main {
   margin: 0;
   padding: 1px;
   background: var(--primary-bg);
@@ -89,8 +88,8 @@ main{
   text-align: center;
   padding: 0 500px;
 }
-@media screen and (max-width: 576px){
-  .donate-today{
+@media screen and (max-width: 576px) {
+  .donate-today {
     padding: 0 10%;
   }
 }
@@ -98,8 +97,8 @@ main{
   margin-top: 130px;
   text-align: center;
 }
-@media screen and (max-width: 576px){
-  .section-content{
+@media screen and (max-width: 576px) {
+  .section-content {
     margin-top: 10%;
   }
 }
@@ -108,8 +107,8 @@ main{
   font-size: 45px;
   color: var(--primary-black);
 }
-@media screen and (max-width: 576px){
-  .section-title{
+@media screen and (max-width: 576px) {
+  .section-title {
     font-size: var(--title-font);
   }
 }
@@ -120,8 +119,8 @@ main{
   margin-top: 20px;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 576px){
-  .section-description{
+@media screen and (max-width: 576px) {
+  .section-description {
     font-size: var(--primary-font);
     margin-top: 10px;
     margin-bottom: 20px;
@@ -132,8 +131,8 @@ main{
   gap: 24px;
   justify-content: center;
 }
-@media screen and (max-width: 576px){
-  .donate-container{
+@media screen and (max-width: 576px) {
+  .donate-container {
     flex-direction: column;
   }
 }
@@ -144,11 +143,11 @@ main{
   border-radius: 5px;
   color: var(--secondary-black);
 }
-@media screen and (max-width: 576px){
-  .donate-content{
+@media screen and (max-width: 576px) {
+  .donate-content {
     padding: 5px 10px;
   }
-  .donate-content .item{
+  .donate-content .item {
     font-size: var(--primary-font);
   }
 }
@@ -156,8 +155,8 @@ main{
   border: 2px solid var(--btn-bg);
   background-color: var(--secondary-content-bg);
 }
-@media screen and (max-width: 576px){
-  #on-click{
+@media screen and (max-width: 576px) {
+  #on-click {
     border: 1px solid var(--btn-bg);
   }
 }
@@ -168,8 +167,8 @@ main{
   margin-top: 60px;
   margin-bottom: 10px;
 }
-@media screen and (max-width: 576px){
-  .donate-description{
+@media screen and (max-width: 576px) {
+  .donate-description {
     font-size: var(--subtitle-font);
     margin-top: 20px;
   }
@@ -177,8 +176,8 @@ main{
 hr {
   margin-bottom: 40px;
 }
-@media screen and (max-width: 576px){
-  hr{
+@media screen and (max-width: 576px) {
+  hr {
     margin-bottom: 20px;
   }
 }
@@ -186,11 +185,10 @@ hr {
 .our-plan {
   padding: 0 200px;
 }
-@media screen and (max-width: 576px){
-  .our-plan{
+@media screen and (max-width: 576px) {
+  .our-plan {
     padding: 0;
   }
-  
 }
 .our-plan .section-content {
   padding: 10px;
@@ -199,7 +197,6 @@ hr {
   .our-plan .section-content {
     padding: 0 10%;
   }
-  
 }
 .container {
   display: flex;
@@ -208,7 +205,7 @@ hr {
   justify-content: center;
 }
 @media screen and (max-width: 576px) {
-  .container{
+  .container {
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -221,7 +218,7 @@ hr {
   border-radius: 5px;
 }
 @media screen and (max-width: 576px) {
-  .contents{
+  .contents {
     padding: 10%;
   }
 }
@@ -232,7 +229,7 @@ hr {
   margin-top: 30px;
 }
 @media screen and (max-width: 576px) {
-  .container-title{
+  .container-title {
     font-size: var(--title-font);
     margin: 10px;
   }
@@ -245,29 +242,28 @@ hr {
   margin-bottom: 54px;
 }
 @media screen and (max-width: 576px) {
-  .container-description{
+  .container-description {
     font-size: var(--primary-font);
     margin-top: 10px;
     margin-bottom: 20px;
   }
 }
-  /* Documentation section style */
+/* Documentation section style */
+.documentation {
+  padding: 0 250px 0 200px;
+}
+
+/* media query for small device ---------------------------------------- */
+
+@media screen and (max-width: 576px) {
   .documentation {
-    padding: 0 250px 0 200px;
+    padding: 5%;
   }
-  @media screen and (max-width: 576px) {
-    .documentation{
-      padding: 5%;
-    }
+  .secondary-container {
+    gap: 5%;
   }
-  
   .secondary-container {
     gap: 50px;
-  }
-  @media screen and (max-width: 576px){
-    .secondary-container{
-      gap: 5%;
-    }
   }
   .documentation .section-description-first {
     margin-bottom: 10px;
@@ -275,60 +271,46 @@ hr {
   .container-details {
     padding: 30px;
   }
-  @media screen and (max-width: 576px){
-    .container-details{
-      padding: 0;
-      text-align: left;
-      margin-bottom: 10px;
-    }
-    .section-title{
-      font-size: var(--title-font);
-    }
+  .container-details {
+    padding: 0;
+    text-align: left;
+    margin-bottom: 10px;
   }
-  /* They needs section styles */
+  .section-title {
+    font-size: var(--title-font);
+  }
   .they-needs {
     padding: 0 250px 0 200px;
   }
-  @media screen and (max-width: 576px){
-    .they-needs{
-      padding: 5%;
-    }
+  .they-needs {
+    padding: 5%;
   }
   #reverse-container {
     flex-direction: row-reverse;
-  }
-  @media screen and (max-width: 576px){
-    #reverse-container{
-      flex-direction: column;
-    }
   }
   .they-needs .container-details {
     padding-right: 0px;
     text-align: left;
   }
-
   .they-needs .section-description-first {
     margin-bottom: 0;
   }
-  @media screen and (max-width: 576px){
-    .documentation img{
-      width: 100%;
-    }
+  .documentation img {
+    width: 100%;
   }
-  @media screen and (max-width: 576px){
-    .they-needs img{
-      width: 100%;
-    }
+  .documentation img {
+    width: 100%;
   }
-
-  /* update section styles */
-  .updates{
+  .they-needs img {
+    width: 100%;
+  }
+  .updates {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 130px;
   }
-  .bottom-banner{
+  .bottom-banner {
     border: 0;
     height: 160px;
     background-color: var(--banner-bg);
@@ -336,16 +318,14 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
-  .form-email{
+  .form-email {
     padding: 15px;
     border: 0;
     border-radius: 5px;
     margin-right: 0;
-
   }
-  .form-btn{
+  .form-btn {
     color: var(--white);
     border: 0;
     border-radius: 5px;
@@ -353,29 +333,28 @@ hr {
     padding: 15px;
     margin-right: 0;
   }
-  /* Footer section styles */
-  .footer{
+  .footer {
     height: 15vh;
     background-color: var(--footer-bg);
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  @media screen and (max-width: 576px){
-    .footer{
-      height: 6vh;
-      flex-direction: column;
-    }
+  .footer {
+    height: 6vh;
+    flex-direction: column;
   }
-  .footer-message{
+  .footer-message {
     font-size: 30px;
     font-weight: 500;
     font-family: var(--lobster);
     color: var(--btn-bg);
   }
-  @media screen and (max-width: 576px){
-    .footer-message{
-      font-size: var(--subtitle-font);
-
-    }
+  .footer-message {
+    font-size: var(--subtitle-font);
   }
+}
+
+/* responsive styles for tablet ----------------------------------- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+}
